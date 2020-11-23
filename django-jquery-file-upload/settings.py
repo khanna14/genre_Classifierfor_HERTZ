@@ -14,7 +14,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATICFILES_DIRS = [
-    'django-jquery-file-upload/static',
+    'fileupload/static',
 ]
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
